@@ -1,0 +1,38 @@
+body{
+    font-size:20px;
+}
+input{
+    vertical-align:middle;
+    margin:0;
+    padding:0
+}
+p{
+    height:25px;
+}
+.file-box{
+    position:relative;
+    width:340px
+}
+.txt{
+    height:24px;
+    border:1px solid #cdcdcd;
+    width:180px;
+    left:20px;
+    /*left:10px;*/
+    /*z-index:3;*/
+}
+.btn{
+    background-color:#FFF;
+    border:1px solid #CDCDCD;
+    height:24px;
+    width:70px;
+    font-size: 18px;
+    margin-left: 5px;
+}
+.file{
+    position:absolute;
+    left: 185px;
+    height:24px;
+    opacity:0;
+    width:70px;
+}

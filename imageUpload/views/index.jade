@@ -1,0 +1,10 @@
+html
+ head
+      meta(http-equiv='Content-Type', content='text/html', charset='UTF-8')
+      link(rel='stylesheet', href='/javaScriptCss/style.css')
+      script(type='text/javascript',src='/javaScriptCss/function.js')
+      script(type='text/javascript',src='/javaScriptCss/jquery-1.7.2.js')
+ body(onload='CreateImg(#{num})')
+     div(id='divButton')
+       input(type='button',value='上传图片',onclick='redirect()',id='pageRedirect')
+     div(id='divImage')

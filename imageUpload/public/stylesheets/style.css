@@ -1,0 +1,23 @@
+
+#pageRedirect{
+    position: absolute;
+    color: red;
+    font-size: x-large;
+    background-color:transparent;
+    left: 900px;
+}
+#divbutton{
+    margin: 0 auto;
+    width: 1024px;
+    overflow: hidden;
+    height: 40px;
+    position: relative;
+    z-index:2;
+    top:0;
+}
+#divImage{
+    margin: 0 auto;
+    overflow: hidden;
+    width: 1044px;
+    position: relative;
+}
