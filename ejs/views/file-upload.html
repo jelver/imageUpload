@@ -1,0 +1,23 @@
+<!DOCTYPE HTML PUBLIC"-//W3C//DTD HTML 4.01 Transitional//EN"
+       "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+    <title></title>
+    <meta http-equiv="Content-Type"  content="text/html"  charset="UTF-8">
+    <link rel="stylesheet" href="/javaScriptCss/uploadStyle.css">
+    <script type="text/javascript" src="/javaScriptCss/function.js"></script>
+</head>
+<body>
+<div class="file-box" >
+    <form action="/upload/image"  enctype="multipart/form-data"  method="post">
+        <p>请选择需要上传的图片:</p>
+        <input type="text"  name="textfield"  id="textfield"  class="txt">
+        <input type="button"  class="btn"  value="浏览...">
+        <input type="file"  name="addImage"  class="file"  id="fileField"  size="28"  onchange="document.getElementById('textfield').value=this.value">
+        <input type="submit"  name="submit"  class="btn"  value="上传" onclick="check()">
+    </form>
+</div>
+</body>
+</html>
+
+
